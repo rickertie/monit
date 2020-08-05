@@ -5,8 +5,8 @@
 FROM alpine
 MAINTAINER kev <noreply@easypi.pro>
 
-RUN apk update
-    && apk upgrade
+RUN apk update \
+    && apk upgrade \
     && apk add bash
 
 RUN apk add --no-cache monit
