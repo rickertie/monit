@@ -1,5 +1,5 @@
-FORK from vimagick/monit
-
+FORK from https://hub.docker.com/r/vimagick/monit/
+to execute https://github.com/matriphe/monit2telegram
 
 monit
 =====
