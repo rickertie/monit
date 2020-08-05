@@ -5,10 +5,9 @@
 FROM alpine
 MAINTAINER kev <noreply@easypi.pro>
 
-RUN apt-get update -y; \
-    apt-get upgrade -y; \
-    apt-get install -y \
-    bash
+RUN apk update
+    && apk upgrade
+    && apk add bash
 
 RUN apk add --no-cache monit
 
