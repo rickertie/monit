@@ -1,7 +1,7 @@
 monit:
-  image: riool/monit
+  image: vimagick/monit
   volumes:
-    - /home/user/docker/monitrc:/etc/monit
+    - /home/rick/docker/monitrc:/etc/monit
   pid: host
   net: host
   restart: always
