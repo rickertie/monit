@@ -4,8 +4,6 @@ to execute https://github.com/matriphe/monit2telegram
 monit
 =====
 
-![](https://badge.imagelayers.io/vimagick/monit:latest.svg)
-
 [Monit][1] is a utility for managing and monitoring processes, programs, files,
 directories and filesystems on a Unix system.
 
@@ -28,7 +26,7 @@ directories and filesystems on a Unix system.
 
 ```yaml
 monit:
-  image: vimagick/monit
+  image: riool/monit
   volumes:
     - ./data:/etc/monit
   pid: host
